@@ -1,0 +1,23 @@
+.usercard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    max-width: 100px;
+    margin-left: 50px;
+}
+
+.card-title{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+

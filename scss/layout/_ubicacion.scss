@@ -1,0 +1,7 @@
+.mapa {
+                @include flex (row, center, center, 0px);
+                    iframe{
+                        height: 50vh;
+                        width: 100%;
+            }
+        }

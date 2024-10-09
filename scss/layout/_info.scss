@@ -1,0 +1,88 @@
+.section__estudio {
+    margin: 15px;
+    margin-bottom: 50px;
+    .div__estudio {
+        background-color: #fff;
+        @include flex (column, center, center, 0px);
+        margin: 20px;
+        border-radius: 8px;
+        .text__estudio {
+            text-align: center;
+            padding: 0 10px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+        }
+        .title__estudio {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7px;
+            margin-top: 10px;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+
+#planes-servicios {
+    margin: 50px 0;
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre tarjetas */
+    margin-top: 20px;
+    }
+    .tarjeta {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    min-width: 250px; /* Ancho mínimo para evitar que se hagan muy pequeñas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarjeta h3 {
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+
+.tarjeta ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.tarjeta ul li {
+    margin-bottom: 5px;
+}
+
+.tarjeta button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%; /* Para que el botón ocupe el ancho completo */
+    cursor: pointer;
+}
+
+.tarjeta button:hover {
+    background-color: #0056b3;
+}
+}

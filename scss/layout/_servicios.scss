@@ -1,0 +1,8 @@
+//Servicios.html
+.page__title {
+    @include flex (column, center, center, 0px);
+    transition: 0.5s;
+    &:hover {
+        color: gray;
+    }
+}

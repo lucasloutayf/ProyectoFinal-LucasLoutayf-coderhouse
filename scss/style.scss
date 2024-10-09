@@ -1,0 +1,17 @@
+//base
+@import "base/vars";
+@import "base/utilities";
+@import "base/reset";
+//components
+@import "components/_carousel";
+@import "components/_card";
+@import "components/footer";
+@import "components/navbar";
+//layout
+@import "layout/_index";
+@import "layout/servicios";
+@import "layout/mediaqueries";
+@import "layout/resena";
+@import "layout/info";
+@import "layout/ubicacion";
+

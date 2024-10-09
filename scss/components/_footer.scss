@@ -1,0 +1,16 @@
+.footer {
+    background-color: $color-lightbeige;
+    height: 80px;
+    margin-top: 10px;
+    width: 100%;
+    
+    @include flex (column, center, center, 0px);
+    .footer__item {
+        margin: 0px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

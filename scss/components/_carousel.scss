@@ -1,0 +1,12 @@
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .carousel-item {
+        img {
+            @include imagenes (100%, 600px, cover);
+        }
+    }
+}
+
+

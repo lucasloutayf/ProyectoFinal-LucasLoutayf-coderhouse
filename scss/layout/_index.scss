@@ -1,0 +1,65 @@
+//Index.html
+.section__presentacion {
+    background-color: $color-beige;
+    height: 500px;
+    display: grid;
+    .div__presentacion{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        
+        h2{
+            text-align: left;
+            width: 200px;
+            margin-top: 100px;
+            color: #191919;
+            font-family: "Bebas Neue";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 48px;
+            transition: 0.5s;
+            &:hover {
+                color: #5c5a5a;
+            }
+        }
+        img {
+            @include imagenes (100%, 100%, cover);
+            max-height: 500px;
+        }
+    }
+}
+
+.section__title {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    .div__title {
+        @include flex (column, center, center, 0px);
+    }
+    
+}
+
+.section__about {
+    margin: 15px;
+    margin-bottom: 50px;
+    .div__about {
+        background-color: #fff;
+        @include flex (column, center, center, 0px);
+        margin: 20px;
+        border-radius: 8px;
+        .p__about {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+
+
+
+
+
+
+

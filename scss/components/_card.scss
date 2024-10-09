@@ -1,0 +1,53 @@
+.row {
+    margin: 10px;
+    padding: 0;
+    article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .tarjeta {
+            @include flex (column, center, center, 10px);
+            width: 100%;
+            background-color: $color-gray;
+            color: $color-black;
+            margin: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px;
+            height: 1200px;
+            div {
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                a {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: $color-black;
+                    color: $color-white;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 4px;
+                }
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            img {
+                @include imagenes (100%, 400px, contain);
+                border-radius: 8px;
+                margin-top: 10px;
+                background-color: $color-gray;
+                max-height: 1000px;
+            }
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+}

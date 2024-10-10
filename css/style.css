@@ -327,23 +327,21 @@ a:hover {
 }
 .usercard {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-
-.user {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 20%;
-  max-width: 100px;
-  margin-left: 50px;
+.usercard .user {
+  width: 50px;
+  height: auto;
 }
-
-.card-title {
-  margin-right: 100px;
-  margin-left: 50px;
+.usercard .card-title, .usercard .card-text {
+  text-align: center;
+  margin: 0;
+}
+.usercard .card-body {
+  padding: 20px;
 }
 
 .section__estudio {

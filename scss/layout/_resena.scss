@@ -1,23 +1,23 @@
-.usercard{
+.usercard {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
     
-}
+    .user {
+        width: 50px; 
+        height: auto; 
+    }
 
-.user {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 20%;
-    max-width: 100px;
-    margin-left: 50px;
-}
+    .card-title, .card-text {
+        text-align: center; 
+        margin: 0; 
+    }
 
-.card-title{
-    margin-right: 100px;
-    margin-left: 50px;
+    .card-body {
+        padding: 20px; 
+    }
 }
 
 
